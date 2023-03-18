@@ -12,7 +12,10 @@ export class PatientService {
 
   getPatients(){
     return this.http.get(this.urlBase);
+  }
 
+  getPatientById(id: number) {
+    return this.http.get(`${this.urlBase}/${id}`);
   }
 }
 
