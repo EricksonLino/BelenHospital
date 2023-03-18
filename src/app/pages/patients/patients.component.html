@@ -1,0 +1,32 @@
+<!--<h1>tabla de pacientes</h1>-->
+
+
+<div class="container">
+    <br>
+    <h1>Lista de Productos</h1>
+    <hr>
+    <br>
+    <table class="table table-striped-columns">
+        <thead>
+            <th>Nro</th>
+            <th>Dni</th>
+            <th>Numero de Historia</th>
+            <th>Primer Nombre</th>
+            <th>Apellido</th>
+            <th>Compañia de Seguros</th>
+            <th></th>
+        </thead>
+        <tbody>
+            <tr *ngFor="let patient of patients; let i=index">
+                <td>{{i+1}}</td>
+                <td>{{patient.dni}}</td>
+                <td>{{patient.storyNumber}}</td>
+                <td>{{patient.firstName}}</td>
+                <td>{{patient.lastName}}</td>
+                <td>{{patient.insuranceCompany}}</td>
+                <td><button type="button" class="btn btn-primary"(click)="showDetail(patient.id)" >ver</button></td>
+
+            </tr>
+        </tbody>
+    </table>   
+</div>

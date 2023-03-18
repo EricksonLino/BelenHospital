@@ -3,23 +3,32 @@ import { BrowserModule } from '@angular/platform-browser';
 
 
 import { AppComponent } from './app.component';
-import { PatientsComponent } from './patients/patients.component';
+import { PatientsComponent } from './pages/patients/patients.component';
 import { AppRoutingModule } from './app-routing.module';
 import { HttpClientModule } from '@angular/common/http';
-import { PatientComponent } from './patient/patient.component';
+import { PatientComponent } from './pages/patient/patient.component';
+import { PatientService } from './services/patient.service';
+import { DashboardComponent } from './pages/dashboard/dashboard.component';
+import { HeaderComponent } from './shared/header/header.component';
+import { SidebarComponent } from './shared/sidebar/sidebar.component';
+import { SpecialtysComponent } from './pages/specialtys/specialtys.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     PatientsComponent,
-    PatientComponent
+    PatientComponent,
+    DashboardComponent,
+    HeaderComponent,
+    SidebarComponent,
+    SpecialtysComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     HttpClientModule
   ],
-  providers: [],
+  providers: [PatientService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
