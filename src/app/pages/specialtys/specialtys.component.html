@@ -1,1 +1,25 @@
-<p>specialtys works!</p>
+<div class="col-12">
+    <div class="card">
+        <div class="card-body">
+            <table class="table">
+                <thead>
+                    <th>Nro</th>
+                    <th>Nombre</th>
+                    <th>Nro de Doctores</th>
+                    <th>Habilitación</th>
+                    <th></th>
+                </thead>
+                <tbody>
+                    <tr class="table-active" *ngFor="let specialty of specialtys; let i=index">
+                        <td>{{i+1}}</td>
+                        <td>{{specialty.name}}</td>
+                        <td>{{specialty.numberOfDoctors}}</td>
+                        <td>{{specialty.isEnabled}}</td>
+
+                        <td><button type="button" class="btn btn-primary"(click)="showDetail(specialty.id)" >ver</button></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>   
+    </div>
+</div>

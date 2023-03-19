@@ -12,6 +12,7 @@ import { DashboardComponent } from './pages/dashboard/dashboard.component';
 import { HeaderComponent } from './shared/header/header.component';
 import { SidebarComponent } from './shared/sidebar/sidebar.component';
 import { SpecialtysComponent } from './pages/specialtys/specialtys.component';
+import { SpecialtyComponent } from './pages/specialty/specialty.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { SpecialtysComponent } from './pages/specialtys/specialtys.component';
     DashboardComponent,
     HeaderComponent,
     SidebarComponent,
-    SpecialtysComponent
+    SpecialtysComponent,
+    SpecialtyComponent
   ],
   imports: [
     BrowserModule,

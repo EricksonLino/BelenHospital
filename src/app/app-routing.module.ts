@@ -5,12 +5,14 @@ import { PatientsComponent } from './pages/patients/patients.component';
 import { PatientComponent } from './pages/patient/patient.component';
 import { DashboardComponent } from './pages/dashboard/dashboard.component';
 import { SpecialtysComponent } from './pages/specialtys/specialtys.component';
+import { SpecialtyComponent } from './pages/specialty/specialty.component';
 
 const routes: Routes = [
   {path:'dashboard', component: DashboardComponent},
   {path:'patients', component: PatientsComponent},
   {path:'specialtys', component: SpecialtysComponent},
-  {path:'patients/:id', component: PatientComponent}
+  {path:'patients/:id', component: PatientComponent},
+  {path:'specialtys/:id', component: SpecialtyComponent}
 
 ];
 
