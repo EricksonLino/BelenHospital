@@ -1,5 +1,28 @@
+.card-titless {
+  margin-right: -20px;
+  color: blue;
+  font-size: large;
+  padding-bottom: 15px;
+}
 
-.btn-dark {
-   
-    margin: 0px 5px 0px 150px;
+.card-titles {
+    margin-left: 295px;
+    margin-top: -30px;
+    color: rgb(10, 10, 10);
+    font-size: large;  
+}
+
+.card-title {
+ color: rgb(50, 3, 160);
+ font-size: large;
+text-align:left;
+}
+
+.img-fluids {
+ height: 100%;
+ width: 93%;
+}
+
+.btn {
+    margin-left: 395px;
 }

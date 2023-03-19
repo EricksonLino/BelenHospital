@@ -1,0 +1,21 @@
+.card-titles {
+    color: rgb(9, 9, 230);
+    font-size: large;
+    text-align: center;
+}
+
+.card-title {
+ color: black;
+ font-size: large;
+text-align: center;
+}
+
+
+.img-fluid{
+    height: 100%;
+    
+}
+
+.btn {
+    margin-left: 165px;
+}

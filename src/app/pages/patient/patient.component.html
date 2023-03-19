@@ -1,15 +1,24 @@
-<div class="card" style="width: 25rem;">
-    <div class="card-body">
-      <h5 class="card-title">Paciente Hospital Belen</h5>
-      <h5 class="card-title">N°:{{patient.storyNumber}}</h5>
-      <h6 class="card-subtitle mb-2 text-muted">{{patient.firstName}}</h6>
-      <h6 class="card-subtitle mb-2 text-muted">{{patient.lastName}}</h6>
-      <h6 class="card-subtitle mb-2 text-muted">{{patient.dni}}</h6>
-      <h6 class="card-subtitle mb-2 text-muted">{{patient.nationality}}</h6>
-      <h6 class="card-subtitle mb-2 text-muted">{{patient.sex}}</h6>
-      <h6 class="card-subtitle mb-2 text-muted">{{patient.birthdate}}</h6>
-      <p class="card-text">Seguro: {{patient.insuranceCompany}}</p>
-
-      <button type="button" class="btn btn-dark" routerLink="/patients">Regresar</button>
+  <div class="container-fluid">
+    <div class="card mb-3" style="max-width: 870px;">
+      <div class="row g-0">
+        <div class="col-md-4">
+          <img src="https://png.pngtree.com/element_our/20190522/ourlarge/pngtree-cartoon-nurse-taking-care-of-a-patient-image_1074140.jpg" class="img-fluids rounded-starts" alt="...">
+        </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <h5 class="card-titless"><b>Paciente Hospital Belen</b></h5>
+            <h5 class="card-titles"><b>Nro. de Historia: &nbsp;{{patient.storyNumber}}</b></h5>
+            <h5 class="card-title">Nombre: &nbsp;{{patient.firstName}}</h5>
+            <h5 class="card-title">Apellido: &nbsp;{{patient.lastName}}</h5>
+            <h5 class="card-title">Nro. de Dni: &nbsp;{{patient.dni}}</h5>
+            <h5 class="card-title">Nacionalidad: &nbsp;{{patient.nationality}}</h5>
+            <h5 class="card-title">Sexo: &nbsp;{{patient.sex}}</h5>
+            <h5 class="card-title">Fecha de Nacimiento: &nbsp;{{patient.birthdate}}</h5>
+            <h5 class="card-title">Seguro: &nbsp;{{patient.insuranceCompany}}</h5>
+  
+            <button type="button" class="btn btn-dark" routerLink="/patients">Regresar</button>
+          </div>
+        </div>
+      </div>
     </div>
   </div>

@@ -15,6 +15,6 @@ export class SpecialtyService {
   }
 
   getSpecialtyById(id: number) {
-    return this.http.get(`${this.urlBase},/${id}`);
+    return this.http.get(`${this.urlBase}/${id}`);
   }
 }

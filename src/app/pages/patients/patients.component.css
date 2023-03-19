@@ -17,11 +17,11 @@ text-align: center;
 
 th{
     color: rgb(72, 25, 243);
-    font-size: medium;
+    font-size: 16px;
 }
 
 .table-active{
-    background-color: rgb(144, 135, 179);
+    background-color: rgb(116, 169, 250);
     color: white;
     font-size: medium;
 }
