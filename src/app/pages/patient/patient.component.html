@@ -1,1 +1,15 @@
-<p>patient works POR ID!</p>
+<div class="card" style="width: 25rem;">
+    <div class="card-body">
+      <h5 class="card-title">Paciente Hospital Belen</h5>
+      <h5 class="card-title">N°:{{patient.storyNumber}}</h5>
+      <h6 class="card-subtitle mb-2 text-muted">{{patient.firstName}}</h6>
+      <h6 class="card-subtitle mb-2 text-muted">{{patient.lastName}}</h6>
+      <h6 class="card-subtitle mb-2 text-muted">{{patient.dni}}</h6>
+      <h6 class="card-subtitle mb-2 text-muted">{{patient.nationality}}</h6>
+      <h6 class="card-subtitle mb-2 text-muted">{{patient.sex}}</h6>
+      <h6 class="card-subtitle mb-2 text-muted">{{patient.birthdate}}</h6>
+      <p class="card-text">Seguro: {{patient.insuranceCompany}}</p>
+
+      <button type="button" class="btn btn-dark" routerLink="/patients">Regresar</button>
+    </div>
+  </div>

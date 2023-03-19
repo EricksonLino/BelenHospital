@@ -1,0 +1,27 @@
+
+.btn {
+    margin-left: 40px;
+    background-color: #077903;
+}
+
+.btn-success, .btn-success.disabled {
+    color: white;
+    font-size: 13px;
+  
+
+}
+
+.table td, .table th {
+text-align: center;
+}
+
+th{
+    color: rgb(72, 25, 243);
+    font-size: medium;
+}
+
+.table-active{
+    background-color: rgb(144, 135, 179);
+    color: white;
+    font-size: medium;
+}
